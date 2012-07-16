@@ -1,4 +1,4 @@
-package tr.com.prime.vew;
+package tr.com.prime.view;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
