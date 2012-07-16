@@ -23,7 +23,7 @@ public class SampleBean {
 	
 	private void foo()
 	{
-		System.out.println("Fooooo");
+		System.out.println("Foo");
 		
 	}
 	
