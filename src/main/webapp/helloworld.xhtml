@@ -9,7 +9,11 @@
 </h:head>
 <h:body>
 
-	<p:editor />
+	<h:form>
+		<p:growl autoUpdate="true" />
+		<p:inputText value="#{helloView.name}" />
+		<p:commandButton action="#{helloView.sayHello}" value="Say Hello" />
+	</h:form>
 
 </h:body>
 </html>
