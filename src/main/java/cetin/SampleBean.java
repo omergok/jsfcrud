@@ -29,7 +29,7 @@ public class SampleBean {
 		System.out.println("Fooo2");
 		
 		int x=3;
-		
+	
 	}
 	
 
