@@ -21,9 +21,14 @@ public class SampleBean {
 		return databinding;
 	}
 	
+	
+	
 	private void foo()
 	{
 		System.out.println("Fooooo");
+		System.out.println("Fooo2");
+		
+		int x=3;
 		
 	}
 	
