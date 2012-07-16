@@ -2,15 +2,16 @@ package tr.com.prime.kadirkebabci;
 
 public class Person {
 	
-	private String name;
+	private String nameeeee;
 	private String surname;
+	private int id;
 	
 	
 	public String getName() {
-		return name;
+		return nameeeee;
 	}
 	public void setName(String name) {
-		this.name = name;
+		this.nameeeee = name;
 	}
 	public String getSurname() {
 		return surname;
