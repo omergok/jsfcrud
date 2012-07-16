@@ -21,6 +21,12 @@ public class SampleBean {
 		return databinding;
 	}
 	
+	private void foo()
+	{
+		System.out.println("Fooooo");
+		
+	}
+	
 
 	private void getUsers() {
 		User u;
