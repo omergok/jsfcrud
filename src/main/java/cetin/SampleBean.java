@@ -30,10 +30,10 @@ public class SampleBean {
 
 	private void getUsers() {
 		User u;
-		for (int i = 0; i < 25; i++) {
+		for (int i = 0; i < 30; i++) {
 			u=new User();
-			u.setName("name "+i);
-			u.setLastname("lastname "+i);
+			u.setName("name "+i+1);
+			u.setLastname("lastname "+i+1);
 			
 			if (getLstUser()!=null) {
 				getLstUser().add(u);	
