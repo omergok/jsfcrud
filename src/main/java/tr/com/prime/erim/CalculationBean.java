@@ -22,6 +22,7 @@ public class CalculationBean {
 	
 	public void sum()
 	{
+		System.out.println("Conflict resolve");
 		FacesContext.getCurrentInstance().addMessage(null,
 				new FacesMessage("sum = " + (firstNum + secondNum)));
 	}
