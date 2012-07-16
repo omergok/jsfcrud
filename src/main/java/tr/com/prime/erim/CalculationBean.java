@@ -22,9 +22,12 @@ public class CalculationBean {
 	
 	public void sum()
 	{
-		System.out.println("Conflict resolve");
+
+		System.out.println("test123123");
+
 		FacesContext.getCurrentInstance().addMessage(null,
 				new FacesMessage("sum = " + (firstNum + secondNum)));
+		System.out.println("test321");
 	}
 
 }
