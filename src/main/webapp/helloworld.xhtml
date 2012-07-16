@@ -10,7 +10,7 @@
 <h:body>
 
 	<h:form>
-		<p:growl autoUpdate="true" />
+		<p:growl id="ds" autoUpdate="true" />
 		<p:inputText value="#{helloView.name}" />
 		<p:commandButton action="#{helloView.sayHello}" value="Say Hello" />
 	</h:form>
